@@ -25,7 +25,6 @@ Vue.component('product', {
         <div class="product">
             <div class="product-image">
                 <img :src="img">
-                <a v-bind:href='link'>Style Sheet</a>
             </div>
             <div class="product-info">
                 <h1>{{title}}</h1>
